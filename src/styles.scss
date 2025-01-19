@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 50px;
+    cursor: pointer;
+    color: #848484;
+    margin: 5px;
+  }
+
+  .carousel-container {
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 1200px;
+
+    .carousel {
+      display: flex;
+      -webkit-overflow-scrolling: touch;
+      transition: transform 0.5s ease;
+
+      .carousel-item {
+        flex: 0 0 auto;
+        text-align: center;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: margin-right 0.5s ease-in-out;
+        width: 100%;
+
+        img {
+          width: 80%;
+        }
+
+        p {
+          margin: 15px 0;
+        }
+
+        a {
+          border: 1px solid lightgray;
+          font-size: large;
+          padding: 5px 0px;
+          cursor: pointer;
+          width: 95%;
+        }
+
+        a:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}

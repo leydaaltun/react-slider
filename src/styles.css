@@ -1,0 +1,76 @@
+* {
+   font-family: "Nunito Sans",
+   serif;
+}
+.header h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container span {
+  
+}
+
+.container span.nav-button {
+  font-size: 50px;
+  cursor: pointer;
+  color: #848484;
+  margin: 5px;
+  position: absolute;
+  bottom: 50%;
+}
+#nextBtn {
+  right: 0;
+}
+.container .carousel-container {
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+}
+
+.container .carousel-container .carousel {
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  transition: transform 0.5s ease;
+}
+
+.container .carousel-container .carousel .carousel-item {
+  flex: 0 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: margin-right 0.5s ease-in-out;
+  width: 100%;
+}
+.container .carousel-container .carousel .carousel-item span {
+  margin-bottom: 1em;
+}
+.container .carousel-container .carousel .carousel-item img {
+  width: 60%;
+}
+
+.container .carousel-container .carousel .carousel-item p {
+  margin: 15px 0;
+}
+
+.container .carousel-container .carousel .carousel-item a {
+  border: 1px solid lightgray;
+  font-size: large;
+  padding: 5px 0px;
+  cursor: pointer;
+  width: 95%;
+}
+
+.container .carousel-container .carousel .carousel-item a:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
